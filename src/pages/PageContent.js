@@ -67,7 +67,7 @@ function PageContent() {
                         </div>
                         <div>
                           <h6 className="mb-0" style={{ color: "#333" }}>Industry Veterans</h6>
-                          <p className="small" style={{ color: "#777" }}>7+ Years of Proven Legacy</p>
+                          <p className="small" style={{ color: "#777" }}>3+ Years of Proven Legacy</p>
                         </div>
                       </div>
 

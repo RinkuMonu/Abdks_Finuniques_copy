@@ -122,7 +122,7 @@ const BBPS = () => {
           <div className="row mt-5 text-center">
             <div className="col-md-12">
               <h4 className="text-success mb-3">Why Choose ABDKS?</h4>
-              <p className="mb-1">7+ Years of Industry Legacy</p>
+              <p className="mb-1">3+ Years of Industry Legacy</p>
               <p className="mb-1">Trusted by 1000+ Retailers in Jaipur</p>
               <p className="mb-1">24x7 Multilingual Customer Support</p>
               <p className="mb-3">Fast Onboarding & Transparent Commissions</p>
