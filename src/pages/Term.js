@@ -53,7 +53,7 @@ export default function Term() {
 
           {/* Text Column */}
           <div className="col-md-6">
-            <h1 className="mb-3">Terms and Conditions</h1>
+            <h2 className="mb-3">Terms and Conditions</h2>
             <h5 className="text-muted mb-4">
               Know your rights and responsibilities.
             </h5>
@@ -75,7 +75,7 @@ export default function Term() {
             <div className="col-lg-10 text-center">
               <h1 className="display-5 fw-bold text-warning-emphasis mb-3">
                 {/* <FaGavel className="me-2" />  */}
-                Terms & Conditions
+                Terms & Conditionsds
               </h1>
               <p className="lead text-muted">
                 Please read these terms carefully before using our services

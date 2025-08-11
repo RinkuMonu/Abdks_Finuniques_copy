@@ -13,10 +13,33 @@ const SEO = ({
   og_site_name,
   og_image,
 }) => {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "ABDKS Solution Pvt. Ltd.",
+    "url": "https://www.abdks.com/",
+    "logo": "https://www.abdks.com/logo/abdkslogo.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "01414511098",
+      "contactType": "technical support",
+      "contactOption": "TollFree",
+      "areaServed": "IN"
+    },
+    "sameAs": [
+      "https://www.instagram.com/abdks_7/",
+      "https://x.com/ABDKS_01",
+      "https://www.facebook.com/profile.php?id=61577777347946",
+      "https://www.linkedin.com/company/108247246/admin/dashboard/",
+      "https://www.abdks.com/"
+    ]
+  };
+
   return (
     <Helmet>
       <title>
-        {meta_title || "India's Trusted Bharat Bill Payment System (BBPS) Platform | Recharge & Bill Pay"}
+        {meta_title ||
+          "India's Trusted Bharat Bill Payment System (BBPS) Platform | Recharge & Bill Pay"}
       </title>
       <meta
         name="description"
@@ -44,6 +67,11 @@ const SEO = ({
 
       {/* Canonical */}
       <link rel="canonical" href={canonical_tag || og_url} />
+
+      {/* ✅ JSON-LD Schema properly inserted */}
+      <script type="application/ld+json">
+        {JSON.stringify(jsonLd)}
+      </script>
     </Helmet>
   );
 };
