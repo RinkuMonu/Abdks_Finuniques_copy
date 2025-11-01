@@ -88,7 +88,7 @@ export default function Header() {
                     <ul className="nav navbar-nav ms-auto">
                       <li className="nav-item">
                         <Link className="nav-link active" to={"/"}>
-                          Home
+                          Homee
                         </Link>
                       </li>
                       <li className="nav-item">
